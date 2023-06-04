@@ -1,0 +1,26 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+body {
+    width: 1440px;
+    margin: 0 auto;
+
+    font-family: "AvertaDemoPECuttedDemo", sans-serif;
+
+    background-color: map-get($colors, 'background' );
+    color: map-get($colors, 'secondary-text-color' );
+
+}
+
+ul, ol {
+    margin: 0;
+    padding: 0;
+    list-style: none; 
+}
+
+a {
+    display: inline-block;
+    text-decoration: none;
+    color: inherit;
+}

@@ -1,0 +1,8 @@
+.navigation {
+    display: flex;
+    color: map-get($colors , 'primary-text-color');
+
+    &__item:not(:last-child) {
+        margin-right: 60px;
+    }
+}
