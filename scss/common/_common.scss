@@ -7,10 +7,12 @@ body {
     margin: 0 auto;
 
     font-family: "AvertaDemoPECuttedDemo", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.6;
 
     background-color: map-get($colors, 'background' );
     color: map-get($colors, 'secondary-text-color' );
-
 }
 
 ul, ol {

@@ -1,0 +1,21 @@
+.hero {
+    position: relative;
+    display: flex;
+    &__wrapper {
+        padding-right: 0;
+    }
+    &__content {
+        width: 470px;
+
+    }
+    &__overlay {
+        position: absolute;
+        top: 0;
+        right: 0;
+
+        width: 755px;
+        border-bottom-left-radius: 200px;
+
+        overflow: hidden;
+    }
+}
