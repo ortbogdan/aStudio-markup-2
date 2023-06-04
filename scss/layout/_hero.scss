@@ -1,21 +1,26 @@
 .hero {
-    position: relative;
-    display: flex;
+    
+    background-image: url(../../images/design-elements/dot-ornament.png), url(../../images/design-elements/ellipse.png);
+    background-repeat: no-repeat;
+    background-position: left 68px bottom 96px, left 623px top;
     &__wrapper {
+        
+        display: flex;
+        
         padding-right: 0;
+        padding-bottom: 96px;
+        background-image: url(../../images/design-elements/rectangle.png);
+        background-repeat: no-repeat;
+        background-position: right 120px bottom 0;
     }
     &__content {
         width: 470px;
-
+        margin-right: 95px;
     }
-    &__overlay {
-        position: absolute;
-        top: 0;
-        right: 0;
-
+    &__image {
+        
         width: 755px;
         border-bottom-left-radius: 200px;
 
-        overflow: hidden;
     }
 }
