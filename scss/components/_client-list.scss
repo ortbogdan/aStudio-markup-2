@@ -1,0 +1,11 @@
+.client-list {
+    display: flex;
+    align-items: center;
+    &__item:not(:last-child) {
+        margin-right: 60px;
+        padding-bottom: 5px;
+    }
+    &__item:last-child {
+        align-self: flex-end;
+    }
+}

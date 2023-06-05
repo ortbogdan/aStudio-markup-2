@@ -1,0 +1,15 @@
+.clients {
+    margin-bottom: 94px;
+    &__content {
+        display: flex;
+        
+    }
+    &__discription {
+        margin-right: 60px;
+    }
+    &__title {
+        @extend .title;
+        margin-bottom: 17px;
+    }
+    
+}
