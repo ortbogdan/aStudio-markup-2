@@ -1,11 +1,11 @@
 .hero {
-    
+    margin-bottom: 40px;
     background-image: url(../../images/design-elements/dot-ornament.png), url(../../images/design-elements/ellipse.png);
     background-repeat: no-repeat;
-    background-position: left 68px bottom 96px, left 623px top;
+    background-position: left 68px bottom 100px, left 623px top;
     &__wrapper {
-        
         display: flex;
+        align-items: center;
         
         padding-right: 0;
         padding-bottom: 96px;
@@ -22,5 +22,12 @@
         width: 755px;
         border-bottom-left-radius: 200px;
 
+    }
+    &__title {
+        @extend .title;
+        margin-bottom: 40px;
+    }
+    &__discription {
+        margin-bottom: 33px;
     }
 }

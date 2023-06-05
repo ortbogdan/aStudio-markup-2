@@ -1,5 +1,7 @@
 .navigation {
     display: flex;
+    
+    line-height: 1.25;
     color: map-get($colors , 'primary-text-color');
 
     &__item:not(:last-child) {
