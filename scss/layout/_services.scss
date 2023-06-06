@@ -1,17 +1,32 @@
 .services {
-    display: flex;
+    
+    
+    &__wrapper {
+        display: flex;
+        align-items: center;   
+    }
+    &__content {
+        width: 395px;
+       
+        margin-right: 90px;
+    }
     &__title {
         @extend .title;
         margin-bottom: 30px;
     }
     &__list {
-        width: 650px;
-
-        display: flex;
-        flex-wrap: wrap;
-
-        row-gap: 34px;
-        column-gap: 31px;
-
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        
+        column-gap: 30px;
+        margin-top: 50px;
+        
     }
+    &__item:nth-child(even) {
+        margin-bottom: 50px;
+    }
+    &__item:nth-child(odd) {
+        margin-top: 50px;
+    }
+    
 }

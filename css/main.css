@@ -116,18 +116,28 @@ img {
   margin-bottom: 17px;
 }
 
-.services {
+.services__wrapper {
   display: flex;
+  align-items: center;
+}
+.services__content {
+  width: 395px;
+  margin-right: 90px;
 }
 .services__title {
   margin-bottom: 30px;
 }
 .services__list {
-  width: 650px;
-  display: flex;
-  flex-wrap: wrap;
-  row-gap: 34px;
-  column-gap: 31px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 30px;
+  margin-top: 50px;
+}
+.services__item:nth-child(even) {
+  margin-bottom: 50px;
+}
+.services__item:nth-child(odd) {
+  margin-top: 50px;
 }
 
 .logo {
