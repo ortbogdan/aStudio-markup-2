@@ -1,0 +1,17 @@
+.services {
+    display: flex;
+    &__title {
+        @extend .title;
+        margin-bottom: 30px;
+    }
+    &__list {
+        width: 650px;
+
+        display: flex;
+        flex-wrap: wrap;
+
+        row-gap: 34px;
+        column-gap: 31px;
+
+    }
+}

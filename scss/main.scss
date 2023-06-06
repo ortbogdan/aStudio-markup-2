@@ -1,5 +1,6 @@
 // UTILS
 @import "./utils/colors";
+@import "./utils/variables";
 // COMMON
 @import "./common/font";
 @import "./common/common";
@@ -9,8 +10,10 @@
 @import "./layout/header";
 @import "./layout/hero";
 @import "./layout/clients";
+@import "./layout/services";
 // COMPONENTS
 @import "./components/logo";
 @import "./components/navigation";
 @import "./components/button";
 @import "./components/client-list";
+@import "./components/product";

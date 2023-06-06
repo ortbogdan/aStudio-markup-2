@@ -1,6 +1,9 @@
 *, *::before, *::after {
     box-sizing: border-box;
 }
+html {
+    background-color: rgb(29, 29, 29);
+}
 body {
     width: 1440px;
     margin: 0 auto;
