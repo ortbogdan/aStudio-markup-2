@@ -116,7 +116,14 @@ img {
   margin-bottom: 17px;
 }
 
+.services {
+  margin-bottom: 146px;
+  background-image: url(../../images/design-elements/rectangle-services.png), url(../../images/design-elements/ellipse-services.png), url(../../images/design-elements/dot-ornament.png), url(../../images/design-elements/rectangle-services-small.png);
+  background-position: right bottom 108px, right 143px bottom 38px, left 125px bottom 75px, left 82px top 285px;
+  background-repeat: no-repeat;
+}
 .services__wrapper {
+  height: 865px;
   display: flex;
   align-items: center;
 }
@@ -128,16 +135,18 @@ img {
   margin-bottom: 30px;
 }
 .services__list {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  column-gap: 30px;
-  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 30px;
 }
-.services__item:nth-child(even) {
-  margin-bottom: 50px;
+.services__list--margin-right {
+  margin-right: 34px;
 }
-.services__item:nth-child(odd) {
-  margin-top: 50px;
+.services__list--on-top {
+  align-self: flex-start;
+}
+.services__list--on-bottom {
+  align-self: flex-end;
 }
 
 .logo {
@@ -212,6 +221,5 @@ img {
   width: 121px;
   height: 121px;
   padding: 24px 23px 23px 24px;
-  background: rgb(241, 247, 255);
   border-radius: 20px;
 }/*# sourceMappingURL=main.css.map */

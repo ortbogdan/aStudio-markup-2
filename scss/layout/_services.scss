@@ -1,32 +1,40 @@
 .services {
-    
-    
+    margin-bottom: 146px;
+
+    background-image: url(../../images/design-elements/rectangle-services.png), url(../../images/design-elements/ellipse-services.png), url(../../images/design-elements/dot-ornament.png), url(../../images/design-elements/rectangle-services-small.png);
+    background-position: right bottom 108px, right 143px  bottom 38px, left 125px bottom 75px, left 82px top 285px;
+    background-repeat: no-repeat;
+
     &__wrapper {
+        height: 865px;
         display: flex;
         align-items: center;   
     }
     &__content {
         width: 395px;
-       
+        
         margin-right: 90px;
     }
     &__title {
         @extend .title;
         margin-bottom: 30px;
+
     }
     &__list {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        
-        column-gap: 30px;
-        margin-top: 50px;
-        
-    }
-    &__item:nth-child(even) {
-        margin-bottom: 50px;
-    }
-    &__item:nth-child(odd) {
-        margin-top: 50px;
+       
+        display: flex;
+        flex-direction: column;
+        row-gap: 30px;
+        &--margin-right {
+            margin-right: 34px;
+        }
+        &--on-top {
+            align-self: flex-start;
+        }
+        &--on-bottom {
+            align-self: flex-end;
+        }
     }
     
+     
 }
