@@ -48,7 +48,7 @@ img {
   display: block;
 }
 
-.title, .services__title, .clients__title, .hero__title {
+.title, .digital__title, .services__title, .clients__title, .hero__title {
   font-size: 40px;
   line-height: 1.23;
   color: rgb(0, 0, 0);
@@ -147,6 +147,33 @@ img {
 }
 .services__list--on-bottom {
   align-self: flex-end;
+}
+
+.digital {
+  margin-bottom: 115px;
+  background-image: url(../../images/digital/design-elements/ellipse-digital.png), url(../../images/digital/design-elements/rectangle-digital.png);
+  background-repeat: no-repeat;
+  background-position: left 600px bottom, right 512px top 45px;
+}
+.digital__wrapper {
+  display: flex;
+  align-items: center;
+  padding-bottom: 64px;
+}
+.digital__video {
+  width: 550px;
+  height: 372px;
+  margin-right: 120px;
+  background-color: rgb(196, 196, 196);
+  box-shadow: 10px 20px 50px rgba(0, 0, 0, 0.15);
+  border-radius: 32px;
+  overflow: hidden;
+}
+.digital__content {
+  width: 530px;
+}
+.digital__title {
+  margin-bottom: 30px;
 }
 
 .logo {

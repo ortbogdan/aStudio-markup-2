@@ -1,0 +1,29 @@
+.digital {
+    margin-bottom: 115px;
+    background-image: url(../../images/digital/design-elements/ellipse-digital.png), url(../../images/digital/design-elements/rectangle-digital.png);
+    background-repeat: no-repeat;
+    background-position: left 600px bottom, right 512px top 45px;
+    &__wrapper {
+        display: flex;
+        align-items: center;
+        padding-bottom: 64px;
+    }
+    &__video {
+        width: 550px;
+        height: 372px;
+        margin-right: 120px;
+
+        background-color:  rgb(196, 196, 196);
+        box-shadow: 10px 20px 50px rgba(0, 0, 0, 0.15);
+        border-radius: 32px;
+
+        overflow: hidden;
+    }
+    &__content {
+        width: 530px;
+    }
+    &__title {
+        @extend .title;
+        margin-bottom: 30px;
+    }
+}
