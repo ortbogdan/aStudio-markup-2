@@ -1,0 +1,34 @@
+.coment {
+    display: flex;
+    align-items: center;
+
+    text-align: start;
+    &__content {
+        width: 410px;
+    }
+    &__avatar {
+        width: 389px;
+        height: 389px;
+        margin-right: 67px;
+
+        filter: drop-shadow(10px 20px 50px rgba(0, 0, 0, 0.15));
+        border-radius: 500px 0px 500px 500px;
+
+        background-image: url(../../images/clients-coments/user.png);
+    }
+    &__name {
+        @extend .title;
+        margin-bottom: 21px;
+
+        font-size: 24px;
+    }
+    &__text {
+        margin-bottom: 40px;
+    }
+    &__buttons {
+        display: flex;
+        gap: 26px;
+    }
+
+
+}

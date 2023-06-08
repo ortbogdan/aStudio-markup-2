@@ -1,0 +1,20 @@
+.clients-coments {
+    margin-bottom: 92px;
+    text-align: center;
+
+    background-image: url(../../images/design-elements/dot-clients-coments.png), url(../../images/design-elements/clients-avatars.png), url(../../images/digital/design-elements/ellipse-digital.png), url(../../images/design-elements/ellipse-services.png);
+    background-repeat: no-repeat;
+    background-position: left 347px top 165px, right 69px bottom 25px, right 212px bottom 80px, left 107px bottom 10px;
+    background-size: auto, auto, 184px 184px, auto;
+    &__title { 
+        @extend .title;
+
+        margin-bottom: 17px;
+    }
+    &__disc {
+        font-size: 18px;
+
+        margin-bottom: 110px;
+    }
+
+}

@@ -48,7 +48,7 @@ img {
   display: block;
 }
 
-.title, .digital__title, .services__title, .clients__title, .hero__title {
+.title, .coment__name, .clients-coments__title, .digital__title, .services__title, .clients__title, .hero__title {
   font-size: 40px;
   line-height: 1.23;
   color: rgb(0, 0, 0);
@@ -176,6 +176,22 @@ img {
   margin-bottom: 30px;
 }
 
+.clients-coments {
+  margin-bottom: 92px;
+  text-align: center;
+  background-image: url(../../images/design-elements/dot-clients-coments.png), url(../../images/design-elements/clients-avatars.png), url(../../images/digital/design-elements/ellipse-digital.png), url(../../images/design-elements/ellipse-services.png);
+  background-repeat: no-repeat;
+  background-position: left 347px top 165px, right 69px bottom 25px, right 212px bottom 80px, left 107px bottom 10px;
+  background-size: auto, auto, 184px 184px, auto;
+}
+.clients-coments__title {
+  margin-bottom: 17px;
+}
+.clients-coments__disc {
+  font-size: 18px;
+  margin-bottom: 110px;
+}
+
 .logo {
   display: flex;
   justify-content: center;
@@ -207,7 +223,7 @@ img {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1), box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .button:hover, .button:focus {
-  background-color: rgb(218, 233, 255);
+  background-color: rgb(231, 240, 252);
   color: rgb(0, 0, 0);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
@@ -249,4 +265,42 @@ img {
   height: 121px;
   padding: 24px 23px 23px 24px;
   border-radius: 20px;
+}
+
+.coment {
+  display: flex;
+  align-items: center;
+  text-align: start;
+}
+.coment__content {
+  width: 410px;
+}
+.coment__avatar {
+  width: 389px;
+  height: 389px;
+  margin-right: 67px;
+  filter: drop-shadow(10px 20px 50px rgba(0, 0, 0, 0.15));
+  border-radius: 500px 0px 500px 500px;
+  background-image: url(../../images/clients-coments/user.png);
+}
+.coment__name {
+  margin-bottom: 21px;
+  font-size: 24px;
+}
+.coment__text {
+  margin-bottom: 40px;
+}
+.coment__buttons {
+  display: flex;
+  gap: 26px;
+}
+
+.ellipse-button {
+  width: 16px;
+  height: 16px;
+  border: none;
+  border-radius: 50%;
+}
+.ellipse-button--active {
+  background-color: rgb(38, 57, 237);
 }/*# sourceMappingURL=main.css.map */
