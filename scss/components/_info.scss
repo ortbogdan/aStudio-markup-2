@@ -1,0 +1,15 @@
+.info {
+    &__title {
+        @extend .title;
+        margin-bottom: 30px;
+
+        font-size: 20px;
+        line-height: 1.25;
+    }
+    &__list {
+        
+        line-height: 2.0;
+
+        color: map-get($colors, 'primary-text-color');
+    }
+}

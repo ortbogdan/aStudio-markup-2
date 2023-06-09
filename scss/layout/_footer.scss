@@ -1,13 +1,28 @@
 .footer {
+    font-size: 14px;
     
-    &__wrapper {
-        width: 1200px;
+    &__box {
+        display: flex;
+        justify-content: space-between;
+       
         padding-top: 60px;
+        padding-bottom: 29px;
         border-top: 1px solid rgb(228, 228, 228);
+        border-bottom: 1px solid rgb(228, 228, 228);
+    }
+    &__content {
+        width: 270px;
     }
     &__logo {
-        width: 106px;
-        
-        justify-content: flex-start;
+       width: 106px;
+       
+       margin-bottom: 24px;
+    }
+    &__disc {
+        margin-bottom: 40px;
+    }
+    &__copyright {
+        text-align: center;
+        padding: 17px 0 23px 0;
     }
 }

@@ -3,6 +3,7 @@
     padding-bottom: 40px;
     &__box {
         display: flex;
+        align-items: center;
         justify-content: space-between;
     }
 }
