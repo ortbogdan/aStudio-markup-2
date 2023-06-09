@@ -1,6 +1,7 @@
 // UTILS
 @import "./utils/colors";
 @import "./utils/variables";
+@import "./utils/visually-hidden";
 // COMMON
 @import "./common/font";
 @import "./common/common";
@@ -13,6 +14,8 @@
 @import "./layout/services";
 @import "./layout/digital";
 @import "./layout/clients-coments";
+@import "./layout/subscribe";
+@import "./layout/footer";
 // COMPONENTS
 @import "./components/logo";
 @import "./components/navigation";
@@ -21,3 +24,4 @@
 @import "./components/product";
 @import "./components/coment";
 @import "./components/ellipse-button";
+@import "./components/social-links";

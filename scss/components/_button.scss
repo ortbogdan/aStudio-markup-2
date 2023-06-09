@@ -1,6 +1,4 @@
 .button {
-    height: 65px;
-
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -11,14 +9,15 @@
     border-radius: 60px;
     border: none;
 
-    background-color: map-get($colors , 'button' );
+    background-color: map-get($colors , 'primary' );
     color: rgb(255, 255, 255);
     box-shadow: none;
 
     transition: background-color 250ms $transitionFunction, color 250ms $transitionFunction, box-shadow 250ms $transitionFunction;
+    cursor: pointer;
 
     &:hover, &:focus {
-        background-color: map-get($colors, 'button-accent' );
+        background-color: map-get($colors, 'secondary' );
         color: map-get($colors, 'primary-text-color' );
         box-shadow: 0px 4px 4px rgb(0 0 0 / 15%);
     }

@@ -1,3 +1,14 @@
+.visually-hidden {
+  position: absolute !important;
+  clip: rect(1px 1px 1px 1px);
+  clip: rect(1px, 1px, 1px, 1px);
+  padding: 0 !important;
+  border: 0 !important;
+  height: 1px !important;
+  width: 1px !important;
+  overflow: hidden;
+}
+
 @font-face {
   font-family: "AvertaDemoPECuttedDemo";
   src: url(../../fonts/FontsFree-Net-AvertaDemoPECuttedDemo-Regular.ttf);
@@ -33,6 +44,13 @@ a {
   color: inherit;
 }
 
+.link {
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.link:hover, .link:focus {
+  color: rgb(38, 57, 237);
+}
+
 h1, h2, h3, h4, h5, h6, p {
   margin: 0;
 }
@@ -48,7 +66,7 @@ img {
   display: block;
 }
 
-.title, .coment__name, .clients-coments__title, .digital__title, .services__title, .clients__title, .hero__title {
+.title, .coment__name, .subscribe__title, .clients-coments__title, .digital__title, .services__title, .clients__title, .hero__title {
   font-size: 40px;
   line-height: 1.23;
   color: rgb(0, 0, 0);
@@ -101,6 +119,9 @@ img {
 }
 .hero__discription {
   margin-bottom: 33px;
+}
+.hero__button {
+  height: 65px;
 }
 
 .clients {
@@ -192,10 +213,63 @@ img {
   margin-bottom: 110px;
 }
 
+.subscribe {
+  margin-bottom: 107px;
+  background-image: url(../../images/subscribe/dot-subscribe.png), url(../../images/subscribe/rectangle-subscribe-section.png);
+  background-repeat: no-repeat;
+  background-position: right 86px top, left 82px bottom;
+}
+.subscribe__box {
+  padding-top: 56px;
+  padding-bottom: 39px;
+}
+.subscribe__wrapper {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 98px 0 98px 0;
+  background-image: url(../../images/subscribe/rectangle-subscribe.png);
+  background-repeat: no-repeat;
+  background-position: right top;
+  background-color: rgb(231, 240, 252);
+  border-radius: 75px;
+}
+.subscribe__title {
+  margin-bottom: 17px;
+}
+.subscribe__form {
+  position: relative;
+}
+.subscribe__input {
+  width: 479px;
+  height: 80px;
+  padding-left: 34px;
+  padding-right: 200px;
+  border: 1px solid rgb(241, 241, 241);
+  box-shadow: 10px 20px 50px rgba(0, 0, 0, 0.15);
+  border-radius: 60px;
+  font-size: inherit;
+  line-height: 1.25;
+}
+.subscribe__button {
+  height: 60px;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+.footer__wrapper {
+  width: 1200px;
+  padding-top: 60px;
+  border-top: 1px solid rgb(228, 228, 228);
+}
+.footer__logo {
+  width: 106px;
+  justify-content: flex-start;
+}
+
 .logo {
   display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
 .navigation {
@@ -208,7 +282,6 @@ img {
 }
 
 .button {
-  height: 65px;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -221,6 +294,7 @@ img {
   color: rgb(255, 255, 255);
   box-shadow: none;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1), box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  cursor: pointer;
 }
 .button:hover, .button:focus {
   background-color: rgb(231, 240, 252);
@@ -300,7 +374,25 @@ img {
   height: 16px;
   border: none;
   border-radius: 50%;
+  background-color: rgb(231, 240, 252);
+  cursor: pointer;
 }
 .ellipse-button--active {
   background-color: rgb(38, 57, 237);
+}
+
+.social-links {
+  display: flex;
+  gap: 16px;
+}
+.social-links__item {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+.social-links__img {
+  display: block;
+  width: 36px;
+  height: 36px;
 }/*# sourceMappingURL=main.css.map */

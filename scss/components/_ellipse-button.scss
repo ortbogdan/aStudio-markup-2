@@ -5,9 +5,10 @@
     border: none;
     border-radius: 50%;
 
-    background-color: map-get($colors, 'accent-button' );
+    background-color: map-get($colors, 'secondary' );
+    cursor: pointer;
 
     &--active {
-        background-color: map-get($colors, 'button' );
+        background-color: map-get($colors, 'primary' );
     }
 }

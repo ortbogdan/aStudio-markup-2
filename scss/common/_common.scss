@@ -26,6 +26,12 @@ a {
     text-decoration: none;
     color: inherit;
 }
+.link {
+    transition: color 250ms $transitionFunction;
+    &:hover, &:focus {
+        color: map-get($colors, 'primary');
+    }
+}
 h1, h2, h3, h4, h5, h6, p {
     margin: 0;
 }
