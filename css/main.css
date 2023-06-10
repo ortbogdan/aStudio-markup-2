@@ -82,6 +82,28 @@ img {
   margin: 0 auto;
 }
 
+@keyframes heroTitleAnimation {
+  0% {
+    visibility: hidden;
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+    visibility: visible;
+  }
+}
+@keyframes heroAnimation {
+  0% {
+    visibility: hidden;
+    opacity: 0;
+    transform: translateX(-20%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+    visibility: visible;
+  }
+}
 .logo {
   padding: 5px 0;
 }
@@ -248,23 +270,55 @@ img {
   background-image: url(../../images/design-elements/rectangle.png);
   background-repeat: no-repeat;
   background-position: right 120px bottom 0;
+  overflow: hidden;
 }
 .hero__content {
   width: 470px;
   margin-right: 95px;
 }
-.hero__image {
-  width: 755px;
-  border-bottom-left-radius: 200px;
-}
 .hero__title {
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
   margin-bottom: 40px;
+  animation-name: heroTitleAnimation;
+  animation-duration: 750ms;
+  animation-fill-mode: forwards;
+  animation-timing-function: linear;
 }
 .hero__discription {
   margin-bottom: 33px;
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+  animation-name: heroAnimation;
+  animation-delay: 750ms;
+  animation-duration: 750ms;
+  animation-fill-mode: forwards;
+  animation-timing-function: linear;
 }
 .hero__button {
   height: 65px;
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+  animation-name: heroAnimation;
+  animation-duration: 750ms;
+  animation-delay: 1500ms;
+  animation-fill-mode: forwards;
+  animation-timing-function: linear;
+}
+.hero__image {
+  width: 755px;
+  border-bottom-left-radius: 200px;
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+  animation-name: heroAnimation;
+  animation-duration: 750ms;
+  animation-delay: 2250ms;
+  animation-fill-mode: forwards;
+  animation-timing-function: linear;
 }
 
 .clients {

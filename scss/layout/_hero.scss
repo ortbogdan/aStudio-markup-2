@@ -12,25 +12,56 @@
         background-image: url(../../images/design-elements/rectangle.png);
         background-repeat: no-repeat;
         background-position: right 120px bottom 0;
+        overflow: hidden;
     }
     &__content {
         width: 470px;
         margin-right: 95px;
     }
-    &__image {
-        
-        width: 755px;
-        border-bottom-left-radius: 200px;
-
-    }
     &__title {
         @extend .title;
+        opacity: 0;
+        visibility: hidden;
+        pointer-events: none;
         margin-bottom: 40px;
+        animation-name: heroTitleAnimation;
+        animation-duration: 750ms;
+        animation-fill-mode:forwards;
+        animation-timing-function: linear;
     }
     &__discription {
         margin-bottom: 33px;
+        opacity: 0;
+        visibility: hidden;
+        pointer-events: none;
+        animation-name: heroAnimation;
+        animation-delay: 750ms;
+        animation-duration: 750ms;
+        animation-fill-mode:forwards;
+        animation-timing-function: linear;
     }
     &__button {
         height: 65px;
+        opacity: 0;
+        visibility: hidden;
+        pointer-events: none;
+        animation-name: heroAnimation;
+        animation-duration: 750ms;
+        animation-delay: 1500ms;
+        animation-fill-mode:forwards;
+        animation-timing-function: linear;
+    }
+    &__image {
+        width: 755px;
+        border-bottom-left-radius: 200px;
+        opacity: 0;
+        visibility: hidden;
+        pointer-events: none;
+        animation-name: heroAnimation;
+        animation-duration: 750ms;
+        animation-delay: 2250ms;
+        animation-fill-mode:forwards;
+        animation-timing-function: linear;
+
     }
 }

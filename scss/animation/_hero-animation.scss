@@ -1,0 +1,26 @@
+@keyframes heroTitleAnimation {
+0% {
+   visibility: hidden;
+   opacity: 0;
+   
+}
+100% {
+   opacity: 1;
+   visibility: visible;
+}
+}
+
+@keyframes heroAnimation {
+    0% {
+      visibility: hidden;
+      opacity: 0;
+      transform: translateX(-20%);
+     
+    }
+    100% {
+      
+       opacity: 1;
+       transform: translateX(0);
+       visibility: visible;
+    }
+}
