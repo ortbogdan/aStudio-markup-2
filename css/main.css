@@ -258,7 +258,7 @@ img {
 
 .hero {
   margin-bottom: 40px;
-  background-image: url(../../images/design-elements/dot-ornament.png), url(../../images/design-elements/ellipse.png);
+  background-image: url(../images/design-elements/dot-ornament.png), url(../images/design-elements/ellipse.png);
   background-repeat: no-repeat;
   background-position: left 68px bottom 100px, left 623px top;
 }
@@ -267,7 +267,7 @@ img {
   align-items: center;
   padding-right: 0;
   padding-bottom: 96px;
-  background-image: url(../../images/design-elements/rectangle.png);
+  background-image: url(../images/design-elements/rectangle.png);
   background-repeat: no-repeat;
   background-position: right 120px bottom 0;
   overflow: hidden;
@@ -336,7 +336,7 @@ img {
 
 .services {
   margin-bottom: 146px;
-  background-image: url(../../images/design-elements/rectangle-services.png), url(../../images/design-elements/ellipse-services.png), url(../../images/design-elements/dot-ornament.png), url(../../images/design-elements/rectangle-services-small.png);
+  background-image: url(../images/design-elements/rectangle-services.png), url(../images/design-elements/ellipse-services.png), url(../images/design-elements/dot-ornament.png), url(../images/design-elements/rectangle-services-small.png);
   background-position: right bottom 108px, right 143px bottom 38px, left 125px bottom 75px, left 82px top 285px;
   background-repeat: no-repeat;
 }
@@ -369,7 +369,7 @@ img {
 
 .digital {
   margin-bottom: 115px;
-  background-image: url(../../images/digital/design-elements/ellipse-digital.png), url(../../images/digital/design-elements/rectangle-digital.png);
+  background-image: url(../images/digital/design-elements/ellipse-digital.png), url(../images/digital/design-elements/rectangle-digital.png);
   background-repeat: no-repeat;
   background-position: left 600px bottom, right 512px top 45px;
 }
@@ -397,7 +397,7 @@ img {
 .clients-coments {
   margin-bottom: 92px;
   text-align: center;
-  background-image: url(../../images/design-elements/dot-clients-coments.png), url(../../images/design-elements/clients-avatars.png), url(../../images/digital/design-elements/ellipse-digital.png), url(../../images/design-elements/ellipse-services.png);
+  background-image: url(../images/design-elements/dot-clients-coments.png), url(../images/design-elements/clients-avatars.png), url(../images/digital/design-elements/ellipse-digital.png), url(../images/design-elements/ellipse-services.png);
   background-repeat: no-repeat;
   background-position: left 347px top 165px, right 69px bottom 25px, right 212px bottom 80px, left 107px bottom 10px;
   background-size: auto, auto, 184px 184px, auto;
@@ -412,7 +412,7 @@ img {
 
 .subscribe {
   margin-bottom: 107px;
-  background-image: url(../../images/subscribe/dot-subscribe.png), url(../../images/subscribe/rectangle-subscribe-section.png);
+  background-image: url(../images/subscribe/dot-subscribe.png), url(../images/subscribe/rectangle-subscribe-section.png);
   background-repeat: no-repeat;
   background-position: right 86px top, left 82px bottom;
 }
@@ -425,7 +425,7 @@ img {
   justify-content: space-around;
   align-items: center;
   padding: 98px 0 98px 0;
-  background-image: url(../../images/subscribe/rectangle-subscribe.png);
+  background-image: url(../images/subscribe/rectangle-subscribe.png);
   background-repeat: no-repeat;
   background-position: right top;
   background-color: rgb(231, 240, 252);

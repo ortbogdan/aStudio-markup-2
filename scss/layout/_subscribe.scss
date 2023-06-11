@@ -1,7 +1,7 @@
 .subscribe {
     margin-bottom: 107px;
 
-    background-image: url(../../images/subscribe/dot-subscribe.png), url(../../images/subscribe/rectangle-subscribe-section.png);
+    background-image: url(../images/subscribe/dot-subscribe.png), url(../images/subscribe/rectangle-subscribe-section.png);
     background-repeat: no-repeat;
     background-position: right 86px top, left 82px bottom;
     &__box {
@@ -15,7 +15,7 @@
         align-items: center;
         padding: 98px 0 98px 0;
 
-        background-image: url(../../images/subscribe/rectangle-subscribe.png);
+        background-image: url(../images/subscribe/rectangle-subscribe.png);
         background-repeat: no-repeat;
         background-position: right top;
         background-color: map-get($colors, 'secondary');

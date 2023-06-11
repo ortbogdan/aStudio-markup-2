@@ -1,6 +1,6 @@
 .hero {
     margin-bottom: 40px;
-    background-image: url(../../images/design-elements/dot-ornament.png), url(../../images/design-elements/ellipse.png);
+    background-image: url(../images/design-elements/dot-ornament.png), url(../images/design-elements/ellipse.png);
     background-repeat: no-repeat;
     background-position: left 68px bottom 100px, left 623px top;
     &__wrapper {
@@ -9,7 +9,7 @@
         
         padding-right: 0;
         padding-bottom: 96px;
-        background-image: url(../../images/design-elements/rectangle.png);
+        background-image: url(../images/design-elements/rectangle.png);
         background-repeat: no-repeat;
         background-position: right 120px bottom 0;
         overflow: hidden;
